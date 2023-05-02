@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Título de la página</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!-- Barra de navegación fija -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Nombre de la empresa</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nuevos-proyectos">Nuevos proyectos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Nuestras obras</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Staff</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Carrousel -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://via.placeholder.com/800x400" class="d-block w-50 mx-auto" alt="Imagen 1">
+                <div class="carousel-caption d-none d-md-block text-left">
+                    <h5>Título del carrousel 1</h5>
+                    <p>Párrafo del carrousel 1</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="https://via.placeholder.com/800x400" class="d-block w-50 mx-auto" alt="Imagen 2">
+                <div class="carousel-caption d-none d-md-block text-left">
+                    <h5>Título del carrousel 2</h5>
+                    <p
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mi página web</title>
+  <!-- Importamos los archivos CSS de Bootstrap -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.2/css/bootstrap.min.css"
+    integrity="sha512-5Q7g+tlBXTLH7ms8xvzK+7DYFkgFzYV7f8dTwz9V7sT6+dMnWJJKhOnGpfrq3ACxb6e4bz6TWs8UVvXUv1pH7w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Mi página web</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" href="#nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nuevos_proyectos.html">Nuevos proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nuestras_obras">Nuestras obras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#staff">Staff</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Nosotros -->
+  <section id="nosotros" class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mx-auto text-center">
+          <img src="https://via.placeholder.com/350x200" alt="Imagen de Nosotros" class="img-fluid mb-3">
+          <h2>Nosotros</h2>
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec eleifend mauris, eu sagittis
+            turpis. Suspendisse tristique, lorem vel facilisis molestie, nisl purus bibendum velit, eget accumsan
+            sapien odio ut purus.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Nuevos Proyectos -->
+  <section id="nuevos_proyectos" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi página web</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+
+  <!-- Barra de navegación fija -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Mi página web</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#nosotros">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#nuevos-proyectos">Nuevos proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#staff">Staff</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección Nosotros -->
+  <section id="nosotros">
+    <div class="container text-center">
+      <img src="imagen-nosotros.jpg" class="img-fluid" alt="Nosotros">
+      <h2>Nosotros</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis quis sapien ut nisl finibus pellentesque at non quam. Suspendisse eu tellus a enim euismod faucibus. Maecenas varius lacinia turpis, eu tincidunt quam porttitor eu. Etiam maximus nibh vitae nunc ullamcorper, euismod tristique ex auctor. Ut fringilla, tortor vitae malesuada rutrum, dolor nulla lobortis metus, eu bibendum turpis metus ac sem. Sed mollis orci at libero vehicula, id varius nibh sagittis.</p>
+    </div>
+  </section>
+
+  <!-- Sección Nuevos proyectos -->
+  <section id="nuevos-proyectos">
+    <div class="container">
+      <h2>Nuevos proyectos</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi Página Web</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<!-- Barra de navegación fija -->
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+		<!-- Botón de menú desplegable -->
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- Menú de navegación -->
+		<div class="collapse navbar-collapse" id="navbarMenu">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="#">NOSOTROS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#nuevosProyectos">NUEVOS PROYECTOS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">NUESTRAS OBRAS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">SERVICIOS</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#contacto">CONTACTO</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#">STAFF</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Sección Nosotros -->
+	<section id="nosotros" class="container-fluid text-center">
+		<img src="img/nosotros.jpg" class="img-fluid">
+		<h2>Nosotros</h2>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan mauris eu augue rutrum, a euismod metus dictum. Fusce feugiat sapien ipsum, sed faucibus nisi dapibus vitae. Nullam a nibh quis nisi placerat interdum. Nunc nec facilisis metus. Integer vel ex lorem. Sed euismod finibus libero, sed auctor ex aliquet id. Curabitur ullamcorper mi vel dolor facilisis, ac bibendum lacus sollicitudin. Nullam malesuada odio vitae quam vestibulum euismod.</p>
+	</section>
+
+	<!-- Sección Nuevos Proyectos -->
+	<section id="nuevosProyectos" class="container-fluid">
+		<h2 class="text-center">Nuevos Proyectos</h2>
+		<!-- Carrusel de imágenes -->
+		<div id="carouselNuevosProyectos" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#carouselNuevosProyectos" data-slide
+
+
+
+
+
