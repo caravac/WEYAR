@@ -11,6 +11,12 @@ body {
 	height: 100vh;
 	min-height: 300px;
 }
+
+.display-1{
+	text-shadow: #f0ebeb;
+	font-size: xx-large;
+	font-weight: 500;
+}
 .carousel-caption {
 	bottom: 220px;
 	margin: 30%;
@@ -26,8 +32,16 @@ body {
 	width: 60%;
 	margin: auto;
 	font-size: 18px;
-	line-height: 1.9;
-	
+	line-height: 1.9;	
+}
+.carousel-caption-0 {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+.texto-caption {
+	font-size: 40px;
 }
 .carousel-inner:before {
 	content: '';
@@ -109,11 +123,12 @@ height: 100%;
 }
 .historial{
 	margin-top: 60px;
+	margin-bottom: 60px;
 }
 .servicios .card-body i {
 	font-size: 50px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 40px;
+	padding-bottom: 30px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -131,21 +146,6 @@ height: 100%;
 	.navbar-nav {
 		text-align:center
 	}
-	.carousel-caption {
-		bottom: 125px;
-	}
-	.carousel-caption h5 {
-		font-size: 17px;
-	}
-	.carousel-caption a {
-		padding: 10px 15px;
-		font-size: 15px;
-	}
-	.carousel-caption p {
-		width: 100%;
-		line-height: 1.6;
-		font-size: 10px;
-	}
 	.mision-text {
 		padding-top: 20px;
 		padding-bottom: 10px;
@@ -155,3 +155,21 @@ height: 100%;
 		margin-bottom: 30px;
 	}
 }
+ /* PANTALLA MEDIANA VISTA */
+ @media (min-width: 576px) and (max-width: 992px) {
+	.carousel-caption p {
+	   font-size: 2rem;
+	}
+	.carousel-caption h1 {
+	   font-size: 5rem;
+	}
+ }
+ /* VISTA PANTALLA  */
+ @media (min-width: 992px) {
+	.carousel-caption p {
+	   font-size: 3rem;
+	}
+	.carousel-caption h1 {
+	   font-size: 7rem;
+	}
+ }
